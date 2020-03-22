@@ -1,0 +1,33 @@
+body {
+  display: grid;
+  grid-gap: 20px;
+  margin: 100px auto;
+  max-width: 600px;
+  font-family: monospace;
+}
+
+/*
+body, header, nav, #form, table {
+  border: 1px solid lightgrey;
+}
+*/
+
+header{
+}
+  .tagline {
+    font-style: italic;
+  }
+
+nav{
+}
+
+#form{
+  display: none;
+}
+
+table{
+}
+
+  th {
+    text-align: left;
+  }
