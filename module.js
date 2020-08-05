@@ -141,7 +141,7 @@ const myLibrairy = {
     formDiv.appendChild(readDiv);
     formDiv.appendChild(ratingDiv);
     formDiv.appendChild(submitButton);
-    formDiv.style.display = "block";
+    formDiv.style.display = "grid";
 
 
     submitButton.addEventListener('click', myLibrairy.submitForm);
@@ -159,6 +159,7 @@ const myLibrairy = {
       rating: ratingValue
     };
     myLibrairy.books.push(newBook);
+    document.querySelector("#form").style.display = "none";
     myLibrairy.render();
   },
 }
