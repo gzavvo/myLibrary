@@ -40,12 +40,13 @@ nav{
 }
 
 #form input {
+  padding: 2px;
   border: none;
-  border-bottom: 2px solid black;
+  border: 2px solid black;
 }
 
 #form > div {
-  display: flex;
+  display: grid;
   justify-content: space-between;
 }
 
