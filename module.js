@@ -158,6 +158,7 @@ const myLibrairy = {
       read: readValue, 
       rating: ratingValue
     };
+
     myLibrairy.books.push(newBook);
     document.querySelector("#form").style.display = "none";
     myLibrairy.render();
